@@ -136,18 +136,18 @@ a:hover {
 <h1>Percorsi per raggiungere le aule del Campus di Grugliasco</h1>
   
 <p>Clicca su "Mappa del Campus" se vuoi una visione generale delle zone del Campus.</p>
+
+  <a href="generale.jpg" title="vista generale del campus" target="_blank">Mappa del Campus</a>
+
+<p>Utilizza il campo a ricerca libera o clicca sul nome della palazzina per visualizzare la mappa con il percorso per raggiungere l'aula di tuo interesse. </p>
+  
+<input id="search" placeholder="Cerca aula (es. Romisondo)">
   
 <div class="viewer" id="viewer">
   <img id="viewer-img">
 </div>
   
-<p>Utilizza il campo a ricerca libera o clicca sul nome della palazzina per visualizzare la mappa con il percorso per raggiungere l'aula di tuo interesse. </p>
-  
-<input id="search" placeholder="Cerca aula (es. Romisondo)">
-
 <ul id="lista"></ul>
-
-
 
 <script>
 /* ===== NORMALIZZAZIONE TESTO ===== */
@@ -165,7 +165,7 @@ function normalizza(testo) {
 const dati = [
   { tipo:"titolo-nc", nome:"Mappa generale del Campus - visione dall'alto", link:"generale.jpg" },
 
-  { tipo:"titolo", nome:"AULE – PALAZZINA DISAFA" },
+  { tipo:"titolo", nome:"PALAZZINA DISAFA" },
   { nome:"Aula Informatica", link:"palazzina-DISAFA-PT.jpg" },
   { nome:"Laboratorio Analisi Sensoriali", link:"palazzina-DISAFA-PT.jpg" },
   { nome:"Laboratorio Entomologia", link:"palazzina-DISAFA-PT.jpg" },
